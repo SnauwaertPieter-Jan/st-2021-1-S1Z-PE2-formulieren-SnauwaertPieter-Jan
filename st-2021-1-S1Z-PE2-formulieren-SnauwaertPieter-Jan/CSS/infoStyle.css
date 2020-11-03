@@ -1,0 +1,54 @@
+body {
+    background: url(../img/BackGround.jpg);
+
+}
+
+h1 {
+    margin-right: 300px;
+}
+
+table {
+    width: 50%;
+    position: relative;
+    top: auto;
+    padding: 50px;
+    left: 200px;
+    border-collapse: collapse;
+}
+
+.OpeningsUren:hover {
+    background-color: red;
+}
+
+.Prijs:hover{
+    background-color: green;
+}
+
+.Korting:hover{
+    background-color: yellow;
+}
+
+tr{
+    padding: 50px;
+}
+
+td {
+    border: 5px brown solid;
+    border-radius: 50px;
+    border-style: dashed;
+    padding: 50px;
+}
+
+.OpeningsUren {
+background-color: lightcoral;
+}
+
+
+.Prijs {
+background-color: lightgreen;
+}
+
+.Korting {
+background-color: lightsalmon;
+}
+

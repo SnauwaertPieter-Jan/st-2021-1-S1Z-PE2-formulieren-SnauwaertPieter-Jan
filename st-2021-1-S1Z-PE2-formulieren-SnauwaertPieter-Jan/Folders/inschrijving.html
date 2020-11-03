@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/inschrijvingStyle.css">
+    <link rel="stylesheet" href="../CSS/mainStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Hoofdpagina</a></li>
+                <li><a href="../Folders/praktischeInfo.html">Praktische Informatie</a></li>
+                <li><a href="../Folders/inschrijving.html">Inschrijven als peter of meter?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Registratie Formulier peter- of meterschap</h1>
+
+    <p>Via dit formulier kunt u zich inschrijven om peter of meter te zijn van dit historisch monument. <br />
+        Wij contacteren u voor verdere informatie.
+    </p>
+
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset>
+            <legend>Gegevens</legend>
+            <select name="GeboorteLand" id="GeboorteLand" multiple="multiple" size="4">
+                <option value="België" selected="selected">België</option>
+                <option value="Duitsland" selected="selected">Duitsland</option>
+                <option value="Nederland" selected="selected">Nederland</option>
+                <option value="Frankrijk" selected="selected">Frankrijk</option>
+                <option value="Italië" selected="selected">Italië</option>
+                <option value="Luxemburg" selected="selected">Luxemburg</option>
+                <option value="Portugal" selected="selected">Portugal</option>
+                <option value="Spanje" selected="selected">Spanje</option>
+                <option value="Verenigd Koninkrijk" selected="selected">Verenigd Koninkrijk</option>
+                <option value="Zwitserland" selected="selected">Zwitserland</option>
+
+            </select> <br />
+
+            <input type="radio" name="peter" value="P" />
+            ik wil graag peter worden <br />
+            <input type="radio" name="meter" value="M" />
+            ik wil graag meter worden <br />
+
+            <label for="txtNaam"><sup>*</sup> Naam:</label>
+            <input type="text" name="Naam" id="txtNaam" placeholder="Naam" required><br />
+
+            <label for="txtVoorNaam"><sup>*</sup> Voornaam:</label>
+            <input type="text" name="Voornaam" id="txtVoorNaam" placeholder="Voornaam" required><br />
+
+            <label for="date"><sup>*</sup> Geboortedatum:</label>
+            <input type="date" name="GeboorteDatum" id="date" required><br />
+
+            <label for="txtEmlAdrs"><sup>*</sup> E-mailadres:</label>
+            <input type="text" name="EmailAdres" id="txtEmlAdrs" placeholder="@hotmail.com" required><br />
+
+            <label for="txtNumber"> Telefoonnummer:</label>
+            <input type="number" name="TelefoonNummer" id="txtNumber" placeholder="Telefoonnummer"><br />
+            <p><small><sup>*</sup> Verplichte velden</small></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Interesses</legend>
+            <input type="checkbox" name="HistorischeGebouwen" id="HistorischeGebouwen">Historische gebouwen <br />
+            <input type="checkbox" name="Geschiedenis" id="Geschiedenis">Geschiedenis <br />
+            <input type="checkbox" name="Romeinen" id="Romeinen">Romeinen <br />
+            <input type="checkbox" name="Gladiatoren" id="Gladiatoren">Gladiatoren <br />
+            <input type="checkbox" name="Theater" id="Theater">Theater <br />
+        </fieldset>
+
+        <input type="submit" value="Nu Aanvragen" id="AanVragen">
+
+    </form>
+
+    <p><small><sup>*</sup>Privacy Policy <br />
+            Wij verwerken uw persoonsgegevens voor het geven van advies over onze diensten. <br />
+            Om de dienstverlening beter te kunnen inspelen op uw persoonlijke situatie en voor marketingactiviteiten,
+            <br />
+            waaronder uitbreiding van de kantrelatie. Ook bieden wij analyses van persoonsgegevens om het dienstenaanbod
+            <br />
+            te verbeteren en beter af te stemmen op de wensen van de (potentiële) peter of meter.
+        </small></p>
+
+</body>
+
+</html>

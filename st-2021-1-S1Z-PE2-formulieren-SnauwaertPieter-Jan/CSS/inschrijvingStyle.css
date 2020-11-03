@@ -1,0 +1,49 @@
+fieldset {
+    border: solid brown 3px;
+    border-radius: 25px;
+    background-color: lightblue;
+    margin: 15px;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding-left: 25px;
+}
+
+label {
+    font-variant: small-caps;
+    width: 155px;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    margin: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+input[type="text"]:required, input[type="password"]:focus:invalid {
+    border: 2px solid lightgoldenrodyellow;
+}
+
+input[type="text"]:required, input[type="password"]:focus:invalid {
+    background-color: lightgreen
+}
+
+input[type="date"]:required {
+    background-color: lightgreen;
+    border: 2px solid lightgoldenrodyellow;
+}
+
+#AanVragen{
+    margin-left: 600px;
+    border-color: brown;
+}
+
+h1 {
+    margin-right: 300px;
+}
+
+p {
+    margin-left: 450px;
+}

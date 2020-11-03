@@ -1,0 +1,62 @@
+body {
+    background: url(../img/BackGround.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 45px;
+}
+#Reclame {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 77%;
+    position: fixed;
+
+}
+
+nav {
+    text-align: left;
+    padding-right: 30px;
+    float: left;
+    color: brown;
+}
+
+nav a:hover {
+    background-color: lightblue;
+}
+
+li {
+    list-style-image: url(../img/Icon.png);
+
+}
+
+#Colosseum {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+}
+
+#KeizerTitus {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#ZeeSlagen {
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+
